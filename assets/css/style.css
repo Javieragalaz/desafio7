@@ -1,4 +1,39 @@
-.container {
-    display:flex
+body {
+    width: 100%;
 }
 
+.container {
+    display:flex
+    
+}
+
+.contacts {
+    display: flex;
+   
+    flex-direction: column;
+    
+}
+.active {
+    display: flex;
+   
+    
+}
+
+
+.principal{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.photo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.user {
+    display: flex;
+}
