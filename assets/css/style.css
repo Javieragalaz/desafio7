@@ -3,70 +3,71 @@ body {
 }
 
 .container {
-    display:flex
-
+    display: flex
+    
 }
 
 .contacts {
     display: flex;
     flex-direction: column;
- 
     width: 25%;
-   
+    justify-content: left;
 
-    justify-content: space-evenly;
-  
 
-    
+
 }
+
 .active {
     display: flex;
-  justify-content: space-evenly; 
+    justify-content: space-evenly;
     align-items: center;
 
     border-color: gray;
-    
+
 }
 
 .status {
     text-align: left;
 }
+.button {
+    background-color: #A491D2;
+    color:white;
+    text-align: center;
+    margin: 20px;
 
+
+}
 .inactive {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    
+
 }
 
 .user {
     display: flex;
     justify-content: space-evenly;
     text-align: left;
-  
-   
 
-    
 }
 
 .text {
     display: flex;
     flex-direction: column;
     text-align: left;
+    flex-basis: 33%;
 
-
-    
 }
 
 
-.principal{ 
+.principal {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
-    
-    
+
+
 }
 
 .principal img {
@@ -76,12 +77,10 @@ body {
 .photo {
     display: flex;
 }
-.photo img{
+
+.photo img {
     width: 70px;
     height: 70px;
     border-radius: 50%;
 
-   
-
 }
-
