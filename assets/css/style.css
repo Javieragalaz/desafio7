@@ -1,5 +1,6 @@
 body {
     width: 100%;
+    font-family: 'roboto', 'sans-serif';
 }
 
 .container {
@@ -10,33 +11,69 @@ body {
 .contacts {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 30%;
     justify-content: left;
-
-
-
+    line-height: 10%;
+    border-right: solid gray 1.5px;
 }
 
 .active {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
-    border-color: gray;
-
+   
+    padding: 20px;
+   border-bottom: solid gray 1.5px;
+ 
 }
 
+.active img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
 .status {
     text-align: left;
 }
-.button {
-    background-color: #A491D2;
-    color:white;
-    text-align: center;
-    margin: 20px;
 
+.status p{
+    color: gray;
+}
+
+.icons{
+    color: gray;
+}
+.icons i{
+    margin-left: 15px; 
 
 }
+
+.button {
+    display: flex;
+    flex-direction: column;
+    color:white;
+    text-align: center;
+    border-bottom: solid gray 1px;
+    
+}
+ 
+.button h3{
+    background-color: #A491D2;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   margin-inline: 120px;
+   padding: 20px;
+  
+}
+
+.button h3:hover{
+
+    background-color: #cdc3e6;
+  
+    
+}
+
+
 .inactive {
     display: flex;
     flex-direction: column;
@@ -48,7 +85,9 @@ body {
     display: flex;
     justify-content: space-evenly;
     text-align: left;
-
+    margin-top: 20px;
+    border-bottom: solid gray 1px;
+   padding-bottom: 20px;
 }
 
 .text {
@@ -56,7 +95,17 @@ body {
     flex-direction: column;
     text-align: left;
     flex-basis: 33%;
+}
+.text h3{
+ font-size: 20px;
 
+   
+}
+
+
+.text p{
+    margin-top: 8px;
+    
 }
 
 
@@ -66,19 +115,29 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-
-
+    background-color: #e8ebe4;
+    
+    
 }
+ .principal p{
+    line-height: 0;
+    margin: 10px;
+ }
+
+ .principal h1{
+    margin-top: 40px;
+    line-height: 12%;
+ }
 
 .principal img {
-    width: 16%;
+    width: 18%;
 }
 
 .photo {
     display: flex;
 }
 
-.photo img {
+.inactive img {
     width: 70px;
     height: 70px;
     border-radius: 50%;
